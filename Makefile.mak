@@ -18,5 +18,5 @@ classes: $(CLASSES:.java=.class)
 run:	$(SERVER).class
 	$(JVM) $(SERVER)
 
-clean: 
+clean:
 	$(RM) *.class
