@@ -6,9 +6,8 @@ The project contains three java files
 3. Utils.java
 
 Commands to execute the program
-1. make -f Makefile.mak
-2. java SocServer
-3. java SocClient
+1. make -f Makefile.mak clean
+2. make -f Makefile.mak
 
 Two files are created by name clientData.txt and serverData.txt which has 300 bytes of randomly generated data.
 
