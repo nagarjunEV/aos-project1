@@ -5,7 +5,7 @@ public class Utils {
 
 	private static final Random random = new Random();
 
-	public static final String IP = "127.0.0.1";
+	public static final String IP = "dc11.utdallas.edu";
 	public static final int PORT = 8888;
 	public static final int P1_LIMIT = 75;
 	public static final int P2_LIMIT = 100;
