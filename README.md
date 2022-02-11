@@ -1,4 +1,4 @@
-# NXE210001 : aos-project1
+# NXE210001 : AOS 6378 - Project1
 
 The project contains three java files
 1. SocServer.java being Server - P1 running on dc12.utdallas.edu:8888 machine.
