@@ -11,7 +11,7 @@ Commands to execute the program
 3. "make -f Makefile.mak run" on dc12.utdallas.edu machine (Server).
 4. "make -f MakefileClient.mak run" on dc11.utdallas.edu machine (Client).
 
-Two files are created by name clientData.txt and serverData.txt which has 300 bytes of randomly generated data.
+Two files are created by name clientData.txt and serverData.txt which has 300 bytes of randomly generated characters.
 
 P1 sends data to P2 in chunks of 100 bytes each for 3 times.
 P2 sends data to P1 in chunks of 75 bytes each for 4 times.
