@@ -2,7 +2,7 @@ JFLAGS = -g
 SERVER = SocServer
 CLIENT = SocClient
 JC = javac
-JVM= java
+JVM = java
 .SUFFIXES: .java .class
 .java.class:
 	$(JC) $(JFLAGS) $*.java
@@ -15,9 +15,8 @@ default: classes
 
 classes: $(CLASSES:.java=.class)
 
-run: classes
+run:	$(SERVER).class
 	$(JVM) $(SERVER)
-	$(JVM) $(CLIENT)
 
-clean:
+clean: 
 	$(RM) *.class
